@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dom Manipulation Hard</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      color: red;
+    }
+
+    button {
+      padding: 10px;
+    }
+
+    .bg-red {
+      background-color: red;
+    }
+
+    .bg-white {
+      background-color: white;
+    }
+  </style>
+</head>
+<body>
+  <!-- handle a button click   -->
+  <button onClick="updateTheBackground('bg-red')" id="redButton">
+      Turn it red!
+    </button>
+    <button onClick="updateTheBackground('bg-white')" id="whiteButton">
+      Turn it white!
+    </button>
+    <script>
+     // Do Stuff Here
+    //  Create two buttons, one that when clicked turns the background of the body red. The other, when clicked, turns the body's background color white. Each of the background colors should be defined as class styles and when the buttons are pushed the body's classList is updated to include the correct class for the background. Create a single function that takes an input className and updates the body's classList to ONLY include that className
+     
+    //handle a button click
+
+    //update the class on the body
+    
+    window.updateTheBackground = function(className) {
+     document.querySelector("body").setAttribute("class",className)
+     }
+    </script>
+</body>
+</html>
+
+<script src="script.js"> </script>
