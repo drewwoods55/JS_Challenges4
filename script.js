@@ -19,6 +19,15 @@ console.log(firstNums(numbers,7))
 
 //very hard- You are given coins of different denominations and a total amount of money amount. Write a function to compute the fewest number of coins that you need to make up that amount. If that amount of money cannot be made up by any combination of the coins, return -1.
 
-//
+//very hard- You are given coins of different denominations and a total amount of money amount. Write a function to compute the fewest number of coins that you need to make up that amount. If that amount of money cannot be made up by any combination of the coins, return -1.
+
+//going to need an array to hold the coins
+
+//going to need to loop through an array.
+
+//find the min amount of coins that goes into the ammount
+
+
+
 
 
